@@ -1,0 +1,17 @@
+--extra-index-url https://test.pypi.org/simple/
+
+torch==2.5.0
+numpy==1.26.3
+pandas==1.5.3
+Pillow==12.1.0
+properscoring==0.1
+PyYAML==6.0.1
+Requests==2.32.5
+torchinfo==1.8.0
+scikit-learn==1.4.0
+tqdm==4.66.1
+tensorboard==2.15.1
+matplotlib==3.6.0
+pyarrow==15.0.0
+tsdm==0.0.0
+shiesh==0.1.4

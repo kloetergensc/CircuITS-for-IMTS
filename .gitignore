@@ -1,0 +1,8 @@
+*.pyc
+*__pycache__*
+*.err
+*.log
+*.pdf
+tensorboard/
+plots/
+saved_models/
