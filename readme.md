@@ -36,7 +36,7 @@ python train_circuits.py --dataset bifurcation -ct 12 -ft 36 --plot
 
 MOSES:
 ```
-python src/baselines/moses/train_moses --dataset bifurcation -ct 12 -ft 36 --plot n_gaussians 10
+python src/baselines/moses/train_moses.py --dataset bifurcation -ct 12 -ft 36 --plot --n-gaussians 10
 ```
 
 ### 2. Real-World Benchmarks
