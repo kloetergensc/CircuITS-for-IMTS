@@ -1,3 +1,6 @@
+# We accidentally uploaded the main paper into the supplementary material and share our appendix here!!
+
+
 # CircuITS: Probabilistic Circuits for Irregular Multivariate Time Series Forecasting
 
 This repository contains the official PyTorch implementation of the paper **"Probabilistic Circuits for Irregular Multivariate Time Series Forecasting"**.
