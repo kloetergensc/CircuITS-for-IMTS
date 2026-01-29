@@ -46,7 +46,7 @@ To train and evaluate CircuITS on the benchmark datasets (Table 1).
 To reproduce the USHCN 36-12 dataset for 1st fold run: 
 
 ```
-python train_circuits.py --components 2 hidden_dim 32  --flow_layers 2 --flow_hid_dim 10 --n_heads 2 --dataset ushcn -ct 36 -ft 12 -bs 64 --fold 0
+python train_circuits.py --components 2 --hidden_dim 32  --flow_layers 2 --flow_hid_dim 10 --n_heads 2 --dataset ushcn -ct 36 -ft 12 -bs 64 --fold 0
 ```
 
 Respectively for Physionet-2012, MIMIC-III and MIMIC-IV:
