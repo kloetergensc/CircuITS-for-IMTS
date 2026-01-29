@@ -242,7 +242,7 @@ for epoch in range(nepochs):
                 path=f"{plot_path}/EPOCH={epoch}.png",
                 n_samples=50,
                 model_name=f"CircuITS-{args.components}",
-                color="rainbow",
+                color="red",
             )
     # check if training should be ended
     if (early_stop == args.patience) or (epoch == nepochs - 1):
