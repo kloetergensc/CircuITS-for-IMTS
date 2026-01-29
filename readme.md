@@ -31,7 +31,7 @@ To reproduce the "Independent Multi-channel Bifurcation" experiment, which demon
 CircuITS:
 
 ```
-python train_circuits --dataset bifurcation -ct 12 -ft 36 --plot
+python train_circuits.py --dataset bifurcation -ct 12 -ft 36 --plot
 ```
 
 MOSES:
