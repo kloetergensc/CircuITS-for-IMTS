@@ -1,9 +1,11 @@
-# We accidentally uploaded the main paper into the supplementary material and share our appendix here!!
-
-
 # CircuITS: Probabilistic Circuits for Irregular Multivariate Time Series Forecasting
 
 This repository contains the official PyTorch implementation of the paper **"Probabilistic Circuits for Irregular Multivariate Time Series Forecasting"**.
+
+![CircuITS](img/circuits.png)
+
+
+
 ### Prerequisites
 
 The code is implemented in Python 3.11 using PyTorch.
@@ -28,6 +30,9 @@ The paper evaluates the model on four real-world datasets:
     
 
 ### 1. Synthetic Bifurcation Experiment
+
+![Bifurcation](img/Bifurcation.png)
+
 
 To reproduce the "Independent Multi-channel Bifurcation" experiment, which demonstrates CircuITS' ability to capture distinct modes where baselines like MOSES fail:
 
@@ -69,16 +74,3 @@ python train_circuits.py --components 2 --flow_layers 2 --flow_hid_dim 10 --hidd
 
 **Hint**: Setting the parameter -ft (forecasting time) as 0 denotes the next-three-steps forecasting  scenario. -ct 36 -ft 3 would result in a different scenario (where the task is to predict the next three hours/months).  
 
-## Citation
-
-If you find this repository useful, please cite our paper (BibTeX will be updated upon de-anonymization):
-
-Code snippet
-
-```
-@inproceedings{anonymous2025circuits,
-  title={Probabilistic Circuits for Irregular Multivariate Time Series Forecasting},
-  author={Anonymous Authors},
-  booktitle={Under Review},
-  year={2025}
-}
