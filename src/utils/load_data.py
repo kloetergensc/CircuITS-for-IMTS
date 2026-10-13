@@ -213,6 +213,18 @@ def load_dataset(args):
             num_folds=args.nfolds,
         )
 
+    elif args.dataset in ("activity", "human_activity"):
+        from tsdm.tasks.human_activity import HumanActivity
+
+        # NOTE: one window is 4000ms and takes the role of the 48 hours of the clinical
+        # datasets, i.e. -ct 36 -ft 12 → 3000ms/1000ms. Values >= 100 are read as ms.
+        task = HumanActivity(
+            normalize_time=True,
+            condition_time=args.cond_time,
+            forecast_horizon=args.forc_time,
+            num_folds=args.nfolds,
+        )
+
     elif args.dataset == "brownian":
         from tsdm.tasks.brownian import BrownianMotion
 

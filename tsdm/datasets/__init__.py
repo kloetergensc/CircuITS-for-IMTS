@@ -34,6 +34,7 @@ __all__ = [
     "BeijingAirQuality",
     "ETT",
     "Electricity",
+    "HumanActivity",
     "InSilicoData",
     "KIWI_RUNS",
     "MIMIC_III",
@@ -59,6 +60,7 @@ from tsdm.datasets.base import (
 from tsdm.datasets.beijing_air_quality import BeijingAirQuality
 from tsdm.datasets.electricity import Electricity
 from tsdm.datasets.ett import ETT
+from tsdm.datasets.human_activity import HumanActivity
 from tsdm.datasets.in_silico_data import InSilicoData
 from tsdm.datasets.kiwi_runs import KIWI_RUNS
 from tsdm.datasets.mimic_iii import MIMIC_III
@@ -78,6 +80,7 @@ DATASETS: Final[dict[str, type[Dataset]]] = {
     "BeijingAirQuality": BeijingAirQuality,
     "ETT": ETT,
     "Electricity": Electricity,
+    "HumanActivity": HumanActivity,
     "InSilicoData": InSilicoData,
     "KIWI_RUNS_TASK": KIWI_RUNS,
     "MIMIC_III": MIMIC_III,
